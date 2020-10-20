@@ -29,6 +29,10 @@ cat("계산된 결과값은 :",
 # Console을 clear.
 
 
-rm(list=ls())  # Environment 객체 삭제
+rm(list=ls())  # Environment 객체 삭제 
 cat("\014")    # console clear  cat("\f")
+
+# ls()의 리턴 값이 character vector이기 때문에 
+rm(list = ls()) 의 방법으로 현재 저장되어 있는 모든 변수를 삭제할 수 있습니다.
+
 
