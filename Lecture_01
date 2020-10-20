@@ -30,4 +30,5 @@ cat("계산된 결과값은 :",
 
 
 rm(list=ls())  # Environment 객체 삭제
-cat("\014")    # console clear
+cat("\014")    # console clear  cat("\f")
+
